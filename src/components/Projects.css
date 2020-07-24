@@ -1,0 +1,80 @@
+.projects {
+  font-family: "Rajdhani";
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3352BA;
+  width: 50%;
+  height: 100%;
+  border-style: outset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 0px
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px 0;
+
+
+}
+
+.card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.ummm:hover{
+  opacity: .5;
+}
+.projectTitle{
+  color: white;
+  text-align: center;
+  font-family: "Architects Daughter";
+  float: top;
+}
+.pdescription {
+  color: white;
+  font-family: "Architects Daughter";
+  text-align: left;
+  line-height: 1.6
+}
+.project{
+  float: left;
+  margin-right: 40px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.closeproject {
+  margin-top: 20px;
+  margin-left: 45%;
+  float: bottom;
+}
+.tools {
+  font-family: "Architects Daughter";
+  text-align: center;
+  color: white;
+}
+.date {
+  font-family: "Architects Daughter";
+  color: white;
+  text-align: center;
+  float: top;
+}
