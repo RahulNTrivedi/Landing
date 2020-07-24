@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c05c00a0.chunk.css",
+    "main.js": "/static/js/main.f57c2aca.chunk.js",
+    "main.js.map": "/static/js/main.f57c2aca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3ce2ee87.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3ce2ee87.js.map",
+    "static/js/2.5e7cde55.chunk.js": "/static/js/2.5e7cde55.chunk.js",
+    "static/js/2.5e7cde55.chunk.js.map": "/static/js/2.5e7cde55.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b631bc9c7a9aaa7b701a005347385ad0.js": "/precache-manifest.b631bc9c7a9aaa7b701a005347385ad0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c05c00a0.chunk.css.map": "/static/css/main.c05c00a0.chunk.css.map",
+    "static/js/2.5e7cde55.chunk.js.LICENSE.txt": "/static/js/2.5e7cde55.chunk.js.LICENSE.txt",
+    "static/media/C.png": "/static/media/C.2dc80ffd.png",
+    "static/media/CSS.png": "/static/media/CSS.585e42d7.png",
+    "static/media/Marlboro.png": "/static/media/Marlboro.6f9ada00.png",
+    "static/media/UFO.png": "/static/media/UFO.cd4758c0.png",
+    "static/media/counters.PNG": "/static/media/counters.2808ae61.PNG",
+    "static/media/flask_icon.png": "/static/media/flask_icon.a8712b17.png",
+    "static/media/hackerspace.PNG": "/static/media/hackerspace.44063a02.PNG",
+    "static/media/html.png": "/static/media/html.8ebde05b.png",
+    "static/media/iLabTicketSystem.PNG": "/static/media/iLabTicketSystem.82843497.PNG",
+    "static/media/java_icon.png": "/static/media/java_icon.58c92c3e.png",
+    "static/media/javascriptpic.png": "/static/media/javascriptpic.85a8113f.png",
+    "static/media/me.jpeg": "/static/media/me.dc93defc.jpeg",
+    "static/media/mongodb.png": "/static/media/mongodb.f092abea.png",
+    "static/media/personalwebsite.PNG": "/static/media/personalwebsite.0bf3ecf7.PNG",
+    "static/media/react.png": "/static/media/react.c7ee7263.png",
+    "static/media/rocket-ship-launch.svg": "/static/media/rocket-ship-launch.ec8e77ee.svg",
+    "static/media/rocket.svg": "/static/media/rocket.5c90aedc.svg",
+    "static/media/rubusms.jpg": "/static/media/rubusms.43ac09d8.jpg",
+    "static/media/usacs-logo.svg": "/static/media/usacs-logo.9f711b7a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ce2ee87.js",
+    "static/js/2.5e7cde55.chunk.js",
+    "static/css/main.c05c00a0.chunk.css",
+    "static/js/main.f57c2aca.chunk.js"
+  ]
+}
