@@ -3,6 +3,7 @@
 }
 body {
   overflow: hidden;
+  background-color: #000000;
 }
 .content {
     max-height: 0px;

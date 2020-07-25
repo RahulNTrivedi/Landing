@@ -9,19 +9,23 @@ ReactDOM.render(<App />, document.getElementById('root'))
 function scroll() {
   document.body.style.overflow = "visible";
   document.getElementById("content").style.maxHeight = "10000px";
-  document.getElementById("sidebar").style.pointerEvents ="auto";
+  if(window.screen.width > 799){
+    document.getElementById("sidebar").style.pointerEvents ="auto";
+  }
 }
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.style.position = "fixed";
-    navbar.style.opacity = "1";
-    navbar.style.pointerEvents ="auto";
-  } else {
-    navbar.style.position = "sticky";
-    navbar.style.opacity = "0";
-    navbar.style.pointerEvents ="none";
+  if(window.screen.width > 799){
+    if (window.pageYOffset > sticky) {
+      navbar.style.position = "fixed";
+      navbar.style.opacity = "1";
+      navbar.style.pointerEvents ="auto";
+    } else {
+      navbar.style.position = "absolute";
+      navbar.style.opacity = "0";
+      navbar.style.pointerEvents ="none";
+    }
   }
 }
 
@@ -40,7 +44,7 @@ t1.add({
 });
 
 t1.add({
-  targets: '.background',
+  targets: 'body',
   backgroundColor: "#004",
   duration: 1000
 },
