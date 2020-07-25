@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RahulNTrivedi.github.io/",
+  "homepage": "http://RahulNTrivedi.github.io/Landing",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.10",
     "@testing-library/jest-dom": "^4.2.4",
