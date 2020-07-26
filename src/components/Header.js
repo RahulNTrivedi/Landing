@@ -21,7 +21,7 @@ class Header extends React.Component {
   return(
       <div className="top">
       <ul className="list" id="navbar">
-        <li className="section" class="section"><a href="#features"><img src={rocket2} width="50px" height="20px"></img></a></li>
+        <li className="section" class="section"><a href="#features"><img src={rocket2} alt="Rocket" width="50px" height="20px"></img></a></li>
         <li className="section" class="section"><a href="#AboutMe">About Me</a></li>
         <li className="section" class="section"><a href="#Projects">Projects</a></li>
         <li className="section" class="section"><a href="#Resume">Resume</a></li>
