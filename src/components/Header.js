@@ -37,7 +37,7 @@ class Header extends React.Component {
             <li className="section2" class="section2"><a href="#Skills">Skills</a></li>
             <li className="section2" class="section2"><a href="#Contacts">Contacts</a></li>
           </ul>
-          <img className="ufo" src={ufo} alt="UFO" width="300" height="270" />
+          <img className="ufo" src={ufo} alt="UFO" width="291.6" height="270" />
           <h1 className="welcome">Hello!</h1>
           <p>I'm Rahul Trivedi.</p>
           <p>Welcome to my personal website!</p>

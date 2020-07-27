@@ -31,7 +31,7 @@
   }
   .info {
     font-size: 10px;
-    line-height: 1;
+    line-height: 1.6;
   }
 }
 
@@ -44,7 +44,7 @@
     }
     .info {
       font-size: 5px;
-      line-height: 1;
+      line-height: 1.6;
     }
     .Me {
       width: 200px;
