@@ -1,9 +1,11 @@
 .features {
   overflow: hidden;
+  width: 100vw;
 }
 body {
   overflow: hidden;
   background-color: #000000;
+  width: 100vw;
 }
 .content {
     max-height: 0px;

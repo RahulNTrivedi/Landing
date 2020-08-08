@@ -43,13 +43,6 @@ t1.add({
   duration: 2000
 });
 
-t1.add({
-  targets: 'body',
-  backgroundColor: "#004",
-  duration: 1000
-},
-"-=1000"
-);
 
 
 t1.add({

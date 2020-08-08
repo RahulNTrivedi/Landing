@@ -94,6 +94,7 @@ li a {
     top: 0;
     left: 0;
     right:0;
+    width: 100vw;
     position: absolute;
     transition: opacity 0.6s ease-out, transform .6s ease-out;
     will-change: opacity;

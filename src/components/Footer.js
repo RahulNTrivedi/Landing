@@ -12,9 +12,6 @@ class  Footer extends React.Component {
           <a target="_blank" rel="noopener noreferrer" className="circle" href="mailto:rahulntriv@gmail.com"><i className="far fa-envelope socials"></i></a>
           <a target="_blank" rel="noopener noreferrer" className="circle" href="https://github.com/RahulNTrivedi"><i className="fab fa-github socials" ></i></a>
         </footer>
-        <footer className="attribution">
-          Spaceship Icon made by <a className="icon" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a className="icon" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-        </footer>
       </div>
     </div>
   );

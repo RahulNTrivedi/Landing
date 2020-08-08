@@ -29,8 +29,14 @@ footer {
 .stuff {
   opacity: 1;
   margin-top: 100px;
+  width: 100vw;
 }
 
 .footerbottom {
   background-color: #000000;
+  width: 100%;
+}
+.bottom {
+  width: 100vw;
+
 }
