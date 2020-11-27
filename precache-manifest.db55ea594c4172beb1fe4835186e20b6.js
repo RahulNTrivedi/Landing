@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "262d4a3716c44222716382c18bc54bd8",
+    "revision": "ee96d329a07d241ac3c4badf325366bd",
     "url": "/Landing/index.html"
   },
   {
-    "revision": "6d69811d0639117ec217",
-    "url": "/Landing/static/css/main.d0ee109d.chunk.css"
+    "revision": "e3224429611bb7ef4974",
+    "url": "/Landing/static/css/main.05f55b6e.chunk.css"
   },
   {
-    "revision": "ed7b82bfa3f8dc021392",
-    "url": "/Landing/static/js/2.83403108.chunk.js"
+    "revision": "37d13ac9d8f91f20e990",
+    "url": "/Landing/static/js/2.11639bac.chunk.js"
   },
   {
     "revision": "531d7b2065717e21d8dbdd1394bf24a4",
-    "url": "/Landing/static/js/2.83403108.chunk.js.LICENSE.txt"
+    "url": "/Landing/static/js/2.11639bac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d69811d0639117ec217",
-    "url": "/Landing/static/js/main.96225e47.chunk.js"
+    "revision": "e3224429611bb7ef4974",
+    "url": "/Landing/static/js/main.ddb1646e.chunk.js"
   },
   {
     "revision": "5cce7c311c40604be6c5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6f9ada006638db019c04fb40c052de4d",
     "url": "/Landing/static/media/Marlboro.6f9ada00.png"
+  },
+  {
+    "revision": "715be8b46d6ff939a5142c144784475f",
+    "url": "/Landing/static/media/Resume.715be8b4.pdf"
   },
   {
     "revision": "cd4758c0e403f1a8eecce61481d13ca8",
@@ -68,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing/static/media/javascriptpic.85a8113f.png"
   },
   {
-    "revision": "dc93defcf8ceac60bcca5b0f82669ef8",
-    "url": "/Landing/static/media/me.dc93defc.jpeg"
-  },
-  {
     "revision": "f092abea924cd7033dd02fea74a9ed78",
     "url": "/Landing/static/media/mongodb.f092abea.png"
   },
   {
     "revision": "0bf3ecf7b7ec270b2ede641d8027b0e1",
     "url": "/Landing/static/media/personalwebsite.0bf3ecf7.PNG"
+  },
+  {
+    "revision": "78822d651afc5efeb1d48c1a830bc3b9",
+    "url": "/Landing/static/media/pic.78822d65.jfif"
   },
   {
     "revision": "c7ee7263ff46a28c247a9b5d0277abe4",
