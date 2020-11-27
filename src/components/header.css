@@ -10,6 +10,7 @@ li a {
   display: block;
   color: white;
   font-family: "Architects Daughter";
+  font-display: swap;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,19 +19,21 @@ li a {
 }
 
 .section:hover {
-  background-color: blue;
+  transition:  1s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .welcometop {
   margin-left: 100px;
-  overflow: hidden;
 }
 .header {
   width: 100vw;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 60px;
-  overflow: hidden;
   font-family: "Space Mono";
+  font-display: swap;
   font-size: 32px;
   text-align: left;
   color: white;
@@ -64,7 +67,6 @@ li a {
 @media only screen and (min-width: 800px) {
   .sidebar {
     float: right;
-    overflow: hidden;
     display: block;
     list-style-type:none;
     margin-right: 50px;
@@ -87,7 +89,6 @@ li a {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #000000;
     opacity: 0;
     z-index: 30;
@@ -110,6 +111,9 @@ li a {
   .welcome {
     font-size: 70px
   }
+  .welcometop {
+    margin-left: 70px;
+  }
   .list {
     position: absolute;
     opacity: 0;
@@ -126,6 +130,9 @@ li a {
     opacity: 1;
     z-index: 10;
     position: absolute;
+  }
+  .welcometop {
+    margin-left: 50px;
   }
 }
 
@@ -144,7 +151,6 @@ li a {
 .background {
   position: fixed;
   z-index: -1;
-  overflow: hidden;
   top: 0;
   bottom:0;
   right: 0;

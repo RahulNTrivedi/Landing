@@ -1,5 +1,6 @@
 .projects {
   font-family: "Rajdhani";
+  font-display: swap;
   font-weight: bold;
   color: white;
   border-radius: 20px;
@@ -47,7 +48,9 @@
 @media only screen and (min-width: 376px) and (max-width: 749px) {
   .projects {
     width: 65%;
-    margin-left: 14%;
+    margin-left: 10%;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .card {
     width: 100px;
@@ -67,7 +70,7 @@
 @media only screen and (min-width: 340px) and (max-width: 375px) {
   .projects {
     width: 70%;
-    margin-left: 14%;
+    margin-left: 10%;
   }
   .card {
     width: 100px;
@@ -95,10 +98,6 @@
   }
 }
 
-::-webkit-scrollbar {
-  width: 0px
-}
-
 
 .ummm:hover{
   opacity: .5;
@@ -120,11 +119,6 @@
   margin-right: 40px;
   border-radius: 25px;
   margin-top: 50px;
-}
-.closeproject {
-  margin-top: 20px;
-  margin-left: 45%;
-  float: bottom;
 }
 .tools {
   font-family: "Architects Daughter";

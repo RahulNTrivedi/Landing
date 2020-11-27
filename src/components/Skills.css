@@ -10,6 +10,7 @@
 
 .skills {
   font-family: "Rajdhani";
+  font-display: swap;
   color: white;
   border-style: outset;
   border-radius: 20px;
@@ -50,7 +51,9 @@
 @media only screen and (min-width: 376px) and (max-width: 749px) {
   .skills {
     width: 65%;
-    margin-left: 14%;
+    margin-left: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .lang {
     width: 50px;
@@ -61,7 +64,7 @@
 @media only screen and (min-width: 340px) and (max-width: 375px) {
   .skills {
     width: 70%;
-    margin-left: 14%;
+    margin-left: 10%;
   }
   .lang {
     width: 50px;
@@ -89,9 +92,20 @@
   text-align: center;
   color: white;
 }
-.close {
-  margin-left: 37%;
+.modalButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 200%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.modalButton:hover{
+  cursor:pointer;
 }
 
 
@@ -102,10 +116,6 @@
 }
 .animated.a:hover{
   background-color: grey;
-}
-
-::-webkit-scrollbar {
-  width: 0px
 }
 
 

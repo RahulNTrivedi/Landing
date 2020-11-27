@@ -7,9 +7,9 @@ import anime from "animejs"
 
 ReactDOM.render(<App />, document.getElementById('root'))
 function scroll() {
-  document.body.style.overflow = "visible";
+  document.body.style.overflowY = "scroll";
   document.getElementById("content").style.maxHeight = "10000px";
-  if(window.screen.width > 799){
+  if(window.screen.width >= 799){
     document.getElementById("sidebar").style.pointerEvents ="auto";
   }
 }

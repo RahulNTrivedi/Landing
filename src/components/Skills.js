@@ -43,13 +43,13 @@ function Skills() {
     }));
     function openModal() {
       setIsOpen(true);
-      document.body.style.overflow = 'hidden'
+      document.body.style.overflowY = 'hidden'
     }
 
 
     function closeModal(){
       setIsOpen(false);
-      document.body.style.overflowY = 'scroll'
+      document.body.style.overflowY = 'scroll';
     }
 
     const bind = useScroll(event => {
@@ -73,8 +73,9 @@ function Skills() {
           <div className="bar">
             <div className="progress"  style={{width: width}}>{level}</div>
           </div>
-          <button className="close" onClick={closeModal}>Close</button>
+          <button className="modalButton" onClick={closeModal}><i class="fas fa-times"></i></button>
         </Modal>
+
         <div className="container" {...bind()}>
           <animated.a
             class="button"
@@ -166,7 +167,7 @@ function Skills() {
               backgroundImage: `url(${flask})`
             }}
           />
-          </div>
+        </div>
       </div>
     );
 
