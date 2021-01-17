@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Landing/static/css/main.05f55b6e.chunk.css",
-    "main.js": "/Landing/static/js/main.dcdef8fa.chunk.js",
-    "main.js.map": "/Landing/static/js/main.dcdef8fa.chunk.js.map",
+    "main.css": "/Landing/static/css/main.f49eb304.chunk.css",
+    "main.js": "/Landing/static/js/main.19614181.chunk.js",
+    "main.js.map": "/Landing/static/js/main.19614181.chunk.js.map",
     "runtime-main.js": "/Landing/static/js/runtime-main.cd9ffe3d.js",
     "runtime-main.js.map": "/Landing/static/js/runtime-main.cd9ffe3d.js.map",
-    "static/js/2.11639bac.chunk.js": "/Landing/static/js/2.11639bac.chunk.js",
-    "static/js/2.11639bac.chunk.js.map": "/Landing/static/js/2.11639bac.chunk.js.map",
+    "static/js/2.9467e44c.chunk.js": "/Landing/static/js/2.9467e44c.chunk.js",
+    "static/js/2.9467e44c.chunk.js.map": "/Landing/static/js/2.9467e44c.chunk.js.map",
     "index.html": "/Landing/index.html",
-    "precache-manifest.19b7e46742430201f110c1f52d5fd5d1.js": "/Landing/precache-manifest.19b7e46742430201f110c1f52d5fd5d1.js",
+    "precache-manifest.cd088dfe937bc0adb2b1119a6237d95a.js": "/Landing/precache-manifest.cd088dfe937bc0adb2b1119a6237d95a.js",
     "service-worker.js": "/Landing/service-worker.js",
-    "static/css/main.05f55b6e.chunk.css.map": "/Landing/static/css/main.05f55b6e.chunk.css.map",
-    "static/js/2.11639bac.chunk.js.LICENSE.txt": "/Landing/static/js/2.11639bac.chunk.js.LICENSE.txt",
+    "static/css/main.f49eb304.chunk.css.map": "/Landing/static/css/main.f49eb304.chunk.css.map",
+    "static/js/2.9467e44c.chunk.js.LICENSE.txt": "/Landing/static/js/2.9467e44c.chunk.js.LICENSE.txt",
     "static/media/C.png": "/Landing/static/media/C.2dc80ffd.png",
     "static/media/CSS.png": "/Landing/static/media/CSS.585e42d7.png",
     "static/media/Marlboro.png": "/Landing/static/media/Marlboro.6f9ada00.png",
+    "static/media/RUConnect.jpg": "/Landing/static/media/RUConnect.30ac4154.jpg",
     "static/media/Resume.pdf": "/Landing/static/media/Resume.715be8b4.pdf",
     "static/media/UFO.png": "/Landing/static/media/UFO.cd4758c0.png",
     "static/media/counters.PNG": "/Landing/static/media/counters.2808ae61.PNG",
@@ -27,6 +28,7 @@
     "static/media/mongodb.png": "/Landing/static/media/mongodb.f092abea.png",
     "static/media/personalwebsite.PNG": "/Landing/static/media/personalwebsite.0bf3ecf7.PNG",
     "static/media/pic.jfif": "/Landing/static/media/pic.78822d65.jfif",
+    "static/media/ponere.jpg": "/Landing/static/media/ponere.fc6f0f5b.jpg",
     "static/media/react.png": "/Landing/static/media/react.c7ee7263.png",
     "static/media/rocket-ship-launch.svg": "/Landing/static/media/rocket-ship-launch.ec8e77ee.svg",
     "static/media/rocket.svg": "/Landing/static/media/rocket.5c90aedc.svg",
@@ -35,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cd9ffe3d.js",
-    "static/js/2.11639bac.chunk.js",
-    "static/css/main.05f55b6e.chunk.css",
-    "static/js/main.dcdef8fa.chunk.js"
+    "static/js/2.9467e44c.chunk.js",
+    "static/css/main.f49eb304.chunk.css",
+    "static/js/main.19614181.chunk.js"
   ]
 }
