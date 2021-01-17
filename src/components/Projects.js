@@ -1,13 +1,15 @@
 import React, {useState} from "react"
 import { useScroll } from "react-use-gesture";
 import Modal from 'react-modal';
-import "./Projects.css"
+import "./stylings/Projects.css"
 import { animated, useSpring } from "react-spring";
 import iLab from "./pictures/iLabTicketSystem.PNG"
 import personalwebsite from "./pictures/personalwebsite.PNG"
 import rubusms from "./pictures/rubusms.jpg"
 import cave_counters from "./pictures/counters.PNG"
 import hackerspace from "./pictures/hackerspace.PNG"
+import ponere from "./pictures/ponere.jpg"
+import ruconnect from "./pictures/RUConnect.jpg"
 
 
 const customStyles = {
@@ -66,7 +68,7 @@ function Projects() {
     }
 
     return(
-      <div id= "Projects" className="projects">
+      <div id= "Projects" className="component">
         <h1 className="projectsheader">Projects</h1>
         <Modal
           isOpen={modalIsOpen}
@@ -79,7 +81,7 @@ function Projects() {
           <h4 className="date">{date}</h4>
           <p className="pdescription">{info}</p>
           <p className="tools">Tools: {tools}</p>
-          <button className="modalButton"><a href={link} target="_blank"><i class="fab fa-github"></i></a></button>
+          <button className="modalButton"><a href={link} target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></button>
           <button className="modalButton" onClick={closeModal}><i class="fas fa-times"></i></button>
         </Modal>
         <div className="container" {...bind()}>
@@ -98,7 +100,6 @@ function Projects() {
 
           <animated.div
             class="button"
-            className="ummm"
             onClick= { () => {openModal(); setName("Hackerspace Dashboard"); setLink("https://github.com/usacs/hackerspace"); setImg(hackerspace); setInfo("Used Flask and Python to create a check-in/check-out system for the Rutgers Hackerspace where hardware can be checked out. Database stores user info and all items checked out from the Hackerspace."); setTools("Python, Flask, Pymongo (MongoDB), Docker"); setWidth("400px"); setHeight("250px"); setDate("October 2019 - November 2019");} }
             key={hackerspace}
             className="card"
@@ -137,6 +138,27 @@ function Projects() {
             style={{
               ...style,
               backgroundImage: `url(${personalwebsite})`,
+              backgroundPosition: 'left'
+            }}
+          />
+          <animated.div
+            class="button"
+            onClick= { () => {openModal(); setName("Ponere"); setLink("https://github.com/djwong23/Ponere"); setImg(ponere); setInfo("Used React to create an app to assist with straightening your posture through an interactable diagram in order to target the areas of your vertebrae that need the most work."); setTools("React, CSS, Javascript, HTML"); setWidth("400px"); setHeight("200px"); setDate("November 2020");} }
+            key={ponere}
+            className="card"
+            style={{
+              ...style,
+              backgroundImage: `url(${ponere})`
+            }}
+          />
+          <animated.div
+            class="button"
+            onClick= { () => {openModal(); setName("RUConnect"); setLink("https://github.com/JonathanWang123/HackRUMarketplace"); setImg(ruconnect); setInfo("Used React.js to create a web app for users to interact with and post items on the marketplace. Utilized Python with Flask and MongoDB api to host our backend server and build user and item functionality. Item search implements tag keyword matching as well as string similarity algorithms to bring the user the most related listings."); setTools("React, CSS, Javascript, HTML"); setWidth("400px"); setHeight("200px"); setDate("November 2020 - January 2020");} }
+            key={ruconnect}
+            className="card"
+            style={{
+              ...style,
+              backgroundImage: `url(${ruconnect})`,
               backgroundPosition: 'left'
             }}
           />

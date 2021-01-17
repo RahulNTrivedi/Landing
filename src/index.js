@@ -51,6 +51,12 @@ t1.add({
   duration: 1000
 });
 
+t1.add({
+  targets: '.component',
+  opacity: 1,
+  duration: 1000
+});
+
 
 window.onscroll = function() {myFunction()};
 setTimeout(scroll, 3500)

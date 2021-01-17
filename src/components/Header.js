@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './stylings/header.css'
 import ufo from './pictures/UFO.png'
 import rocket from "./pictures/rocket-ship-launch.svg"
 import rocket2 from "./pictures/rocket.svg"

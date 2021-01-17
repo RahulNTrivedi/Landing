@@ -1,5 +1,5 @@
 import React from 'react'
-import "./MainContent.css"
+import "./stylings/MainContent.css"
 import AboutMe from './AboutMe'
 import Resume from './Resume'
 import Skills from './Skills'

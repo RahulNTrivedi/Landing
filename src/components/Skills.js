@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useScroll } from "react-use-gesture";
 import { animated, useSpring } from "react-spring";
-import "./Skills.css"
+import "./stylings/Skills.css"
 import Modal from 'react-modal';
 import java from "./pictures/java_icon.png"
 import javascript from "./pictures/javascriptpic.png"
@@ -61,7 +61,7 @@ function Skills() {
     });
 
     return(
-      <div id= "Skills" className="skills">
+      <div id= "Skills" className="component">
         <h1 className="skillsheader">Skills</h1>
         <Modal
           isOpen={modalIsOpen}

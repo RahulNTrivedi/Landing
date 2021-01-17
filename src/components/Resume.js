@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Resume.css"
+import "./stylings/Resume.css"
 import resume from "./Resume.pdf"
 import rutgers from "./pictures/Rutgers.png"
 import marlboro from "./pictures/Marlboro.png"
@@ -8,7 +8,7 @@ import fizzbuzz from "./pictures/Fizzbuzz.jpg"
 
 function Resume(){
   return(
-    <div className="resume">
+    <div className="component">
       <h1 className="title">Resume</h1>
       <h1 className="parts">Education</h1>
       <div className="marlboro">
@@ -24,7 +24,7 @@ function Resume(){
         </ul>
       </div>
       <div className="rutgers">
-        <h2 className="school">Rutgers University New Brunswick (2019-2022)</h2>
+        <h2 className="school">Rutgers University New Brunswick (2019-present)</h2>
         <img className="pic" src={rutgers} alt="Rutgers University" width="150" height="189.6" />
         <h3 className="category">Degree: Bachelors of Science in Computer Science</h3>
         <h3 className="category">Relevant Coursework</h3>

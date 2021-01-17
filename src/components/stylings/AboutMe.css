@@ -1,0 +1,40 @@
+@media only screen and (min-width: 750px) {
+  .info {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .Me{
+      margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 750px) {
+  .info {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  .Me {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+    .info {
+      font-size: 10px;
+      line-height: 1.6;
+    }
+    .Me {
+      width: 120px;
+      height: 160px;
+    }
+}
+
+.Me {
+  border-radius: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.title {
+  float: top;
+}

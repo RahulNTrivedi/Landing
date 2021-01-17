@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Opening.css"
+import "./stylings/Opening.css"
 import Particles from "react-particles-js"
 
 class Opening extends React.Component {
