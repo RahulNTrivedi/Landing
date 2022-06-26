@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aad7555e0e1c38c538e049bdc3421530",
+    "revision": "3e612627206a1687a281175fef872248",
     "url": "/Landing/index.html"
   },
   {
-    "revision": "73e310323f114e14abd1",
-    "url": "/Landing/static/css/main.9345b944.chunk.css"
+    "revision": "77a26c202f76c35dbd72",
+    "url": "/Landing/static/css/main.0bc59e61.chunk.css"
   },
   {
-    "revision": "df578dfe42819e80ac82",
-    "url": "/Landing/static/js/2.9467e44c.chunk.js"
+    "revision": "f1549ef3008bcbdc5e4e",
+    "url": "/Landing/static/js/2.ce54b67f.chunk.js"
   },
   {
     "revision": "531d7b2065717e21d8dbdd1394bf24a4",
-    "url": "/Landing/static/js/2.9467e44c.chunk.js.LICENSE.txt"
+    "url": "/Landing/static/js/2.ce54b67f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73e310323f114e14abd1",
-    "url": "/Landing/static/js/main.d04491e8.chunk.js"
+    "revision": "77a26c202f76c35dbd72",
+    "url": "/Landing/static/js/main.9c3dd062.chunk.js"
   },
   {
     "revision": "5cce7c311c40604be6c5",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing/static/media/Marlboro.6f9ada00.png"
   },
   {
+    "revision": "e50bc3970892c40dda7b1c904128ea04",
+    "url": "/Landing/static/media/Oracle-Logo.e50bc397.png"
+  },
+  {
     "revision": "30ac415455278e83938b805a5fcb38b2",
     "url": "/Landing/static/media/RUConnect.30ac4154.jpg"
   },
   {
-    "revision": "715be8b46d6ff939a5142c144784475f",
-    "url": "/Landing/static/media/Resume.715be8b4.pdf"
+    "revision": "dcd470759be0cd4e4daf4b36365ac6c6",
+    "url": "/Landing/static/media/Rahul.dcd47075.jpg"
+  },
+  {
+    "revision": "226b181cd93d125f7466e8aa54e62e98",
+    "url": "/Landing/static/media/Resume.226b181c.pdf"
   },
   {
     "revision": "cd4758c0e403f1a8eecce61481d13ca8",
@@ -84,10 +92,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing/static/media/personalwebsite.0bf3ecf7.PNG"
   },
   {
-    "revision": "78822d651afc5efeb1d48c1a830bc3b9",
-    "url": "/Landing/static/media/pic.78822d65.jfif"
-  },
-  {
     "revision": "fc6f0f5bbb19c7786a6a025ca289fd59",
     "url": "/Landing/static/media/ponere.fc6f0f5b.jpg"
   },
@@ -96,16 +100,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing/static/media/react.c7ee7263.png"
   },
   {
-    "revision": "ec8e77eecb753d0c5eea29f6cf9a36ca",
-    "url": "/Landing/static/media/rocket-ship-launch.ec8e77ee.svg"
-  },
-  {
     "revision": "5c90aedc0fbda488036cd666640fde6f",
     "url": "/Landing/static/media/rocket.5c90aedc.svg"
   },
   {
     "revision": "43ac09d8d8d20168310c9d4338fdbe9a",
     "url": "/Landing/static/media/rubusms.43ac09d8.jpg"
+  },
+  {
+    "revision": "96d08d57e27604881bfae24ed20911c3",
+    "url": "/Landing/static/media/rut.96d08d57.png"
+  },
+  {
+    "revision": "e3efae10350fac4ec9d77a62a73a32bf",
+    "url": "/Landing/static/media/rutgerslogo.e3efae10.png"
   },
   {
     "revision": "9f711b7aa4fc11a1dfa2b60687eb0eef",
