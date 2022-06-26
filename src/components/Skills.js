@@ -22,7 +22,7 @@ const customStyles = {
     marginRight           : '-50%',
     transform             : 'translate(-50%, -50%)',
     backgroundColor : 'black',
-    borderRadius: '25px'
+    fontFamily: "Lato"
   }
 };
 const clamp = (value: number, clampAt: number = 30) => {
@@ -61,9 +61,10 @@ function Skills() {
     });
 
     return(
-      <div id= "Skills" className="component">
-        <h1 className="skillsheader">Skills</h1>
+      <div id= "Skills" className="component lighter">
+        <h1 className="title">Skills</h1>
         <Modal
+          closeTimeoutMS={1000}
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           style={customStyles}
@@ -76,97 +77,99 @@ function Skills() {
           <button className="modalButton" onClick={closeModal}><i class="fas fa-times"></i></button>
         </Modal>
 
-        <div className="container" {...bind()}>
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("Java");} }
-            key={java}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${java})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("Javascript");} }
-            key={javascript}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${javascript})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("Python");} }
-            key={python}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${python})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("CSS");} }
-            key={css}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${css})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("HTML");} }
-            key={html}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${html})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("C");} }
-            key={c}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${c})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("MongoDB");} }
-            key={mongodb}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${mongodb})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("50%"); setLevel("Novice"); setName("React");} }
-            key={reactlogo}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${reactlogo})`
-            }}
-          />
-          <animated.a
-            class="button"
-            onClick= { () => {openModal(); setWidth("75%");  setLevel("Advanced"); setName("Flask");} }
-            key={flask}
-            className="lang"
-            style={{
-              ...style,
-              backgroundImage: `url(${flask})`
-            }}
-          />
+        <div className="contents">
+          <div className="container" {...bind()}>
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("Java");} }
+              key={java}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${java})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("Javascript");} }
+              key={javascript}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${javascript})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("Python");} }
+              key={python}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${python})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("CSS");} }
+              key={css}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${css})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("HTML");} }
+              key={html}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${html})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("C");} }
+              key={c}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${c})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("75%"); setLevel("Advanced"); setName("MongoDB");} }
+              key={mongodb}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${mongodb})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("60%"); setLevel("Proficient"); setName("React");} }
+              key={reactlogo}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${reactlogo})`
+              }}
+            />
+            <animated.a
+              class="button"
+              onClick= { () => {openModal(); setWidth("75%");  setLevel("Advanced"); setName("Flask");} }
+              key={flask}
+              className="lang"
+              style={{
+                ...style,
+                backgroundImage: `url(${flask})`
+              }}
+            />
+          </div>
         </div>
       </div>
     );

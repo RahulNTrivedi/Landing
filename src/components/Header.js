@@ -1,8 +1,7 @@
 import React from 'react'
 import './stylings/header.css'
 import ufo from './pictures/UFO.png'
-import rocket from "./pictures/rocket-ship-launch.svg"
-import rocket2 from "./pictures/rocket.svg"
+import rocket from "./pictures/rocket.svg"
 
 class Header extends React.Component {
 
@@ -10,7 +9,7 @@ class Header extends React.Component {
   return(
       <div className="top">
       <ul className="list" id="navbar">
-        <li className="section"><a href="#features"><img src={rocket2} alt="Rocket" width="50px" height="20px"></img></a></li>
+        <li className="section"><a href="#features"><img src={rocket} alt="Rocket" width="50px" height="20px"></img></a></li>
         <li className="section"><a href="#AboutMe">About Me</a></li>
         <li className="section"><a href="#Projects">Projects</a></li>
         <li className="section"><a href="#Resume">Resume</a></li>
@@ -18,7 +17,7 @@ class Header extends React.Component {
         <li className="section"><a href="#Contacts">Contacts</a></li>
       </ul>
       <div className="header">
-        <div className="welcometop">
+        <div className="welcometop" id="head">
           <ul className="sidebar" id="sidebar">
             <li className="section2"><a href="#AboutMe">About Me</a></li>
             <li className="section2"><a href="#Projects">Projects</a></li>
@@ -32,7 +31,6 @@ class Header extends React.Component {
           <p>Welcome to my personal website!</p>
         </div>
       </div>
-      <img className="Rocket" src={rocket} alt="Rocket" width="240" height="300" />
     </div>);
   }
 }

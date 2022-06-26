@@ -1,13 +1,6 @@
-.background {
-  width: 100vw;
-  height: 100vw;
-  opacity: 1;
-}
+
 .yikes {
-  opacity: 1;
   position: fixed;
-  width: 100vw;
-  height: 100vw;
   top: 0;
   bottom:0;
   right: 0;

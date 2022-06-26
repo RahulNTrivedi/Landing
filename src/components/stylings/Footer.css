@@ -1,8 +1,6 @@
 footer {
   text-align: center;
   color: white;
-  bottom: 0;
-  right: 0;
 }
 .icon {
   color: white;
@@ -25,17 +23,11 @@ footer {
   background-color: #757575
 }
 
-.stuff {
-  opacity: 1;
-  margin-top: 100px;
-  width: 100vw;
-}
 
-.footerbottom {
-  background-color: #000000;
-  width: 100%;
-}
-.bottom {
-  width: 100vw;
 
+
+.contact-title{
+  text-align: center;
+  color: white;
+  font-family: "Architects Daughter";
 }

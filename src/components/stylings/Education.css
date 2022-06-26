@@ -1,0 +1,81 @@
+
+.education{
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.school-div{
+  position: relative;
+  width: 40%;
+
+  background-color: white;
+  border: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.school-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top:0;
+  bottom:0;
+}
+
+.modal-pics{
+  margin: auto;
+  display: block;
+}
+
+.description-layer{
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+}
+
+.school{
+  text-align: center;
+  font-size: 32px;
+}
+
+.club{
+  text-align: center;
+  font-size: 23px;
+}
+
+.category{
+  font-size: 25px;
+}
+
+.description{
+  font-size: 20px;
+}
+.school-title{
+  transition: .2s;
+  transform: translateY(1em);
+  font-size: 30px;
+  text-align: center;
+}
+
+.school-div:hover .description-layer{
+  visibility: visible;
+  opacity: 1;
+}
+.school-div:hover .school-title{
+  transform: translateY(0);
+}

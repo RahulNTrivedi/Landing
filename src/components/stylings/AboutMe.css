@@ -1,40 +1,33 @@
-@media only screen and (min-width: 750px) {
-  .info {
-    font-size: 20px;
-    line-height: 1.6;
-  }
-  .Me{
-      margin-top: 30px;
-  }
-}
-@media only screen and (min-width: 350px) and (max-width: 750px) {
-  .info {
-    font-size: 10px;
-    line-height: 1.6;
-  }
-  .Me {
-    width: 160px;
-    height: 160px;
-  }
-}
 
-@media only screen and (max-width: 349px) {
-    .info {
-      font-size: 10px;
-      line-height: 1.6;
-    }
-    .Me {
-      width: 120px;
-      height: 160px;
-    }
-}
 
 .Me {
-  border-radius: 25%;
-  float: left;
-  margin-right: 20px;
+  max-width: 350px;
+  max-height: 350px;
+  filter: none;
+  transition: filter 1s;
 }
 
-.title {
-  float: top;
+.info{
+  line-height:1.6;
+  max-width: 600px;
+  font-size:20px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 700px) {
+  .contents{
+    display: inline-block;
+  }
+  .Me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 90%;
+  }
 }
